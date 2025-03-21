@@ -1,0 +1,99 @@
+.navbar-nav{
+    background-color: #4242425d;
+}
+
+
+.carousel{
+    max-height: 800px;
+    overflow: hidden;
+}
+
+.carousel img{
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    max-width: 100%;
+    filter: grayscale(0);    ;
+    height: auto;
+    background-image: cover;
+}
+
+/* .carousel-control-prev,
+.carousel-control-next{
+    background: #d2ffd269
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover{
+    background-color: rgb(8, 63, 24);    
+    transition: all .3s;
+} */
+
+section .about .container{
+    background-color: #000 !important;
+}
+
+.gallery img{
+    transform: scale(1);
+    transition: all .3s;
+}
+
+.gallery img:hover{
+    transform: scale(1.05);
+    transition: all .3s;
+}
+
+
+section.hero{
+    height: 300px;
+}
+
+/* Example using a class called "fixed-height-image" */
+.fixed-height-image {
+    height: 300px; /* Replace 300px with your desired fixed height */
+    width: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* or contain, fill, etc. See explanation below */
+    display: block; /* Prevents unwanted inline spacing */
+  }
+
+
+  section.hero h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(5, 4, 23);
+    font-size: 3em;
+
+  }
+
+
+
+  /* Live Chat Icon */
+
+  .chat-icon-container {
+    position: fixed; /* Fixed position for chat icon */
+    bottom: 20px;
+    right: 20px;
+    background-color: #04ae45; /* Blue background */
+    color: white;
+    padding: 15px;
+    border-radius: 50%; /* Circular shape */
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex; /* Flexbox for centering SVG */
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.chat-icon-container:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.chat-icon-container svg {
+    width: 30px; /* Adjust size of SVG */
+    height: 30px;
+    fill: white; /* Make the inner part of SVG white */
+    stroke: white; /* Make the stroke of the SVG white */
+}
